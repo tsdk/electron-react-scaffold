@@ -4,6 +4,7 @@
   "description": "it is test",
   "author": "sundial dreams",
   "license": "ISC",
+  "private": true,
   "main": "dist/main/main.prod.js",
   "scripts": {
     "build-main": "cross-env NODE_ENV=production webpack --config webpack.main.prod.config.js",
